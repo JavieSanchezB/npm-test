@@ -33,7 +33,9 @@ miPedidoDePizza
 .then((mensajeDeConfirmacion) => {
   console.log(mensajeDeConfirmacion)
 })
-.then(null, (mensajeDeError)=> {
+// .then(null, (mensajeDeError)=> {
+ //Uso el metodo catch para no usar null teniendo en cuenta clean code 
+.catch((mensajeDeError) => {
   console.log(mensajeDeError);
 });
 
