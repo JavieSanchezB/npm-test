@@ -1,4 +1,4 @@
-const PromesaCumplida= false;
+const PromesaCumplida= true;
 
 const miPromesa = new Promise((resolve,reject)=>{
   setTimeout(()=>{
