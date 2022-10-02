@@ -39,3 +39,12 @@ miPedidoDePizza
   console.log(mensajeDeError);
 });
 
+// const  manejarPedidoexitoso =(mensajeDeConfirmacion) => {
+//   console.log(mensajeDeConfirmacion)
+// };
+
+// const  manejarPedidofallido =(mensajeDeFalla) => {
+//   console.log(mensajeDeFalla)
+// };
+
+// miPedidoDePizza.then(manejarPedidoexitoso).catch(manejarPedidofallido);
