@@ -18,13 +18,22 @@ if (estatusPedido()){
 }, 5000);
 });
 
-const  manejarPedidoexitoso =(mensajeDeConfirmacion) => {
+// const  manejarPedidoexitoso =(mensajeDeConfirmacion) => {
+//   console.log(mensajeDeConfirmacion)
+// };
+
+// const  manejarPedidofallido =(mensajeDeFalla) => {
+//   console.log(mensajeDeFalla)
+// };
+
+// miPedidoDePizza.then(manejarPedidoexitoso,manejarPedidofallido);
+
+//Refactorizando
+miPedidoDePizza
+.then((mensajeDeConfirmacion) => {
   console.log(mensajeDeConfirmacion)
-};
-
-const  manejarPedidofallido =(mensajeDeFalla) => {
-  console.log(mensajeDeFalla)
-};
-
-miPedidoDePizza.then(manejarPedidoexitoso,manejarPedidofallido);
+})
+.then(null, (mensajeDeError)=> {
+  console.log(mensajeDeError);
+});
 
