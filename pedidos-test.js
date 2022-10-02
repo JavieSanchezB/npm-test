@@ -28,7 +28,7 @@ if (estatusPedido()){
 
 // miPedidoDePizza.then(manejarPedidoexitoso,manejarPedidofallido);
 
-//Refactorizando
+//Refactorizando y Method Chainning
 miPedidoDePizza
 .then((mensajeDeConfirmacion) => {
   console.log(mensajeDeConfirmacion)
