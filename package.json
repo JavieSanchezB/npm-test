@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JavieSanchezB/npm-test/issues"
   },
-  "homepage": "https://github.com/JavieSanchezB/npm-test#readme"
+  "homepage": "https://github.com/JavieSanchezB/npm-test#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
